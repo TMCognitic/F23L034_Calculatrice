@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="Border" x:Key="ScreenBorderStyle">
+        <Setter Property="Background" >
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" >
+                    <GradientStop Color="#FFEDEFE4" Offset="0" />
+                    <GradientStop Color="#FFD4D9BB" Offset=".5" />
+                    <GradientStop Color="#FFD8DBBC" Offset=".7" />
+                    <GradientStop Color="#FFE6E9D6" Offset="1" />
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
